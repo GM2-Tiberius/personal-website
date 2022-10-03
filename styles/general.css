@@ -1,0 +1,31 @@
+body {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  padding: 0;
+  padding-top:55px;
+  height: 5000px;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sitemap-container,
+.welcome-message-container,
+.rt-columbia-container,
+.rt-columbia,
+.sog,
+.sog-1,
+.sog-2,
+.quote-container {
+  border: 1px solid black;
+  display: flex;
+  max-height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rt-columbia-container {
+  background-color: rgb(192, 192, 192);
+}
